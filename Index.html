@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sudharshan — Notebook</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper: #F7F4EC;
+    --paper-line: #DCD5C2;
+    --ink: #232323;
+    --ink-soft: #5B5648;
+    --navy: #1D3557;
+    --amber: #C8862B;
+    --card: #FFFEFA;
+    --rule: #CFC7AE;
+  }
+  :root:not([data-theme="light"]){
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --paper: #17181C;
+      --paper-line: #26282E;
+      --ink: #ECE8DC;
+      --ink-soft: #A9A493;
+      --navy: #7C9CC4;
+      --amber: #E0A94E;
+      --card: #1D1F24;
+      --rule: #33353C;
+    }
+  }
+  :root[data-theme="dark"]{
+    --paper: #17181C;
+    --paper-line: #26282E;
+    --ink: #ECE8DC;
+    --ink-soft: #A9A493;
+    --navy: #7C9CC4;
+    --amber: #E0A94E;
+    --card: #1D1F24;
+    --rule: #33353C;
+  }
+
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    margin:0;
+    background:var(--paper);
+    color:var(--ink);
+    font-family:'Inter', -apple-system, sans-serif;
+    line-height:1.6;
+    background-image:
+      linear-gradient(var(--paper-line) 1px, transparent 1px);
+    background-size: 100% 2.1em;
+    background-attachment: local;
+  }
+
+  .margin-rule{
